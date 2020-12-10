@@ -1,0 +1,12 @@
+name: "ppp"
+title: "Paycheck Protection Program"
+description: |
+  Exploring the Paycheck Protection Program: Money, Business, Human Health, and Economic Equality
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

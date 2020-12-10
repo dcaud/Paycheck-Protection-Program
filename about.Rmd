@@ -1,0 +1,9 @@
+---
+title: "About this Website: Paycheck Protection Program"
+description: |
+  Lots of data made more easily available than huge raw tables.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
