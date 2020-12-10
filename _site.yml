@@ -3,12 +3,11 @@ title: "Paycheck Protection Program"
 description: |
   Exploring the Paycheck Protection Program: Money, Business, Human Health, and Economic Equality
 output_dir: "docs"
-base_url: https://dcaud.github.io/Paycheck-Protection-Program/
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-  output: distill::distill_article
-
+  search: true
+output: distill::distill_article
