@@ -1,8 +1,11 @@
-name: "ppp"
-title: "Paycheck Protection Program"
-description: |
-  Exploring the Paycheck Protection Program: Money, Business, Human Health, and Economic Equality
+name: "Paycheck-Protection-Program-Data"
+title: "Paycheck Protection Program Data"
+description: "Exploring the Paycheck Protection Program - Money, Business, Human Health, and Economic Equality"
 output_dir: "docs"
+base_url: https://dcaud.github.io/Paycheck-Protection-Program/
+collections:
+  posts:
+    custom: _custom.html
 navbar:
   right:
     - text: "Home"
