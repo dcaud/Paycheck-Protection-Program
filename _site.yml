@@ -5,11 +5,13 @@ output_dir: "docs"
 base_url: https://dcaud.github.io/Paycheck-Protection-Program/
 collections:
   posts:
-    custom: _custom.html
+    custom: _custom-collection-sidebar.html
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Summary Stats"
+      href: summary-stats-ppp.html
 output: distill::distill_article
