@@ -1,8 +1,7 @@
 ---
 title: "Welcome to Paycheck Protection Program"
 description: |
-  Welcome to our new blog, Paycheck Protection Program. We hope you enjoy 
-  reading what we have to say!
+  Lots of easy to read Paycheck Protection Program data. How much were all those loans?
 author:
   - name: Paycheck Protection Program Data
 date: 12-09-2020
@@ -20,4 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+# Lots of PPP data is Hidden
+
+The SBA released a bunch of huge, hard to open, and hard to read data on the PPP program in November, 2020. This site opens up that data for those without the ability or desire to sort through csvs and excel files.
 
