@@ -4,9 +4,9 @@ output:
   distill::distill_article:
     self_contained: false
     lib_dir: libs
-description: Brentwood, TN 
+description: BROOKLYN, NY 
 date: 12-10-2020
-title: AAC HOLDINGS 
+title: ADAM S EUROPEAN CONTRACTING 
 ---
 
 
@@ -27,13 +27,13 @@ db <- read_feather('../ppp builder-PRIVATE/inter/ppp.top.10k.feather')
 
 The **Paycheck Protection Program (PPP)** was designed to provide a direct incentive for small businesses to keep their workers on the payroll. It ended in August 2020, but a [new PPP bill](https://thehill.com/policy/finance/529092-bipartisan-support-for-new-ppp-loans-gains-momentum-in-congress) is being considered.
 
-As part of the Paycheck Protection Program **AAC HOLDINGS INC** received a loan.
+As part of the Paycheck Protection Program **ADAM'S EUROPEAN CONTRACTING INC** received a loan.
 
 
-# AAC HOLDINGS INC 
+# ADAM'S EUROPEAN CONTRACTING INC 
 
 ```{r}
-focal.row <- db[db$id ==  74782 , ]
+focal.row <- db[db$id ==  119061 , ]
 focal.row$id <- NULL
 focal.row$LoanAmount <- NULL
 focal.row$BusinessName.hyphenated <- NULL
@@ -68,4 +68,4 @@ More info about the PPP is available from the [Small Business Administration](ht
  
 ### Other companies that received a PPP loan 
    
- [ABUELO S INTERNATIONAL L P](/ABUELO-S-INTERNATIONAL-L-P/) <br> [ACCURATE BACKGROUND](/ACCURATE-BACKGROUND/) <br> [ACCURATE PERSONNEL](/ACCURATE-PERSONNEL/) <br> [ACME TRUCK LINE](/ACME-TRUCK-LINE/) <br>
+ [ADAMS COMMUNICATIONS COMPANY](/ADAMS-COMMUNICATIONS-COMPANY/) <br> [ADVANCE CARE ALLIANCE OF NY](/ADVANCE-CARE-ALLIANCE-OF-NY/) <br> [ADVANCED CALL CENTER TECHNOLOGIES](/ADVANCED-CALL-CENTER-TECHNOLOGIES/) <br> [ADVANCED CLINICAL HOLDINGS](/ADVANCED-CLINICAL-HOLDINGS/) <br>
