@@ -4,9 +4,9 @@ output:
   distill::distill_article:
     self_contained: true
     lib_dir: libs
-description:  Boston, MA 
+description: Boston, MA 
 date: 12-10-2020
-title:  FUZE 
+title: FUZE 
 categories:
   -  Corporation 
   
