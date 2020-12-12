@@ -7,6 +7,7 @@ collections:
   posts:
     custom: _custom-collection-sidebar.html
 navbar:
+  search: false
   right:
     - text: "Home"
       href: index.html
