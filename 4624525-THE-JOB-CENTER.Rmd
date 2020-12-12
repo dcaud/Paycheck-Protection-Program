@@ -1,0 +1,71 @@
+
+---
+output:
+  distill::distill_article:
+    self_contained: false
+    lib_dir: libs
+description: CINCINNATI, OH 
+date: 12-10-2020
+title: THE JOB CENTER 
+---
+
+
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(feather)
+library(knitr)
+library(dplyr)
+library(kableExtra)
+
+db <- read_feather('../ppp builder-PRIVATE/inter/ppp.top.10k.feather')
+
+```
+
+
+
+The **Paycheck Protection Program (PPP)** was designed to provide a direct incentive for small businesses to keep their workers on the payroll. It ended in August 2020, but a [new PPP bill](https://thehill.com/policy/finance/529092-bipartisan-support-for-new-ppp-loans-gains-momentum-in-congress) is being considered.
+
+As part of the Paycheck Protection Program **THE JOB CENTER LLC** received a loan.
+
+
+# THE JOB CENTER LLC 
+
+```{r}
+focal.row <- db[db$id ==  4624525 , ]
+focal.row$id <- NULL
+focal.row$LoanAmount <- NULL
+focal.row$BusinessName.hyphenated <- NULL
+
+knitr::kable(t(focal.row), 
+col.names = '') %>%
+kable_styling(latex_options = 'striped') %>%
+  column_spec(1, bold = TRUE)
+
+
+```
+
+### Data Sources
+
+The data come from a release of over 5,000,000 records by the SBA in November, 2020.
+
+
+### Who Could Apply?
+
+The following entities affected by Coronavirus (COVID-19) may have been eligible:
+
++ Any small business concern that meets SBA’s size standards (either the industry based sized standard or the alternative size standard)
++ Sole proprietors, independent contractors, and self-employed persons
++ Any business with a NAICS Code that begins with 72 (Accommodations and Food Services) that has more than one physical location and employs less than 500 per location
++ Any business, 501(c)(3) non-profit organization, 501(c)(19) veterans organization, or Tribal business concern (sec. 31(b)(2)(C) of the Small Business Act) with the greater of:
+  + 500 employees, or 
+  + That meets the SBA industry size standard if more than 500
+
+
+More info about the PPP is available from the [Small Business Administration](https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program).
+
+ 
+### Other companies that received a PPP loan 
+   
+ [THE KLEINFELDER GROUP](/Paycheck-Protection-Program/4626617-THE-KLEINFELDER-GROUP) <br> [THE LONGSTREET CLINIC PC](/Paycheck-Protection-Program/4634199-THE-LONGSTREET-CLINIC-PC) <br> [THE MEDICAL TEAM](/Paycheck-Protection-Program/4637688-THE-MEDICAL-TEAM) <br> [THE NEW YORK RACING ASSOCIATION](/Paycheck-Protection-Program/4642178-THE-NEW-YORK-RACING-ASSOCIATION) <br>
