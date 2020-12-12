@@ -12,8 +12,8 @@
       "path": "index.html",
       "title": "Paycheck Protection Program Loans",
       "author": [],
-      "contents": "\n\nSearch for companies that recieved PayCheck Protection Program Loans\n\n\n\n\n\n\n\n",
-      "last_modified": "2020-12-12T11:57:27-05:00"
+      "contents": "\n\n  iframe {\n    min-width: 100%;\n  }\n\n\n\n  iFrameResize({\n    heightCalculationMethod: 'taggedElement'\n  });\n\n\n\n\n\n\n",
+      "last_modified": "2020-12-12T12:28:05-05:00"
     },
     {
       "path": "summary-stats-ppp.html",

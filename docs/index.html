@@ -1781,11 +1781,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p><br> <br></p>
-<h2 id="search-for-companies-that-recieved-paycheck-protection-program-loans">Search for companies that recieved PayCheck Protection Program Loans</h2>
-<div class="layout-chunk" data-layout="l-body">
-<iframe src="https://ambitious.shinyapps.io/paycheck-protection-search/?showcase=0" width="624" height="600px">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js"></script>
+<style>
+  iframe {
+    min-width: 100%;
+  }
+</style>
+<iframe id="myIframe" src="https://ambitious.shinyapps.io/paycheck-protection-search/" scrolling="no" frameborder="no">
 </iframe>
+<script>
+  iFrameResize({
+    heightCalculationMethod: 'taggedElement'
+  });
+</script>
+<div class="layout-chunk" data-layout="l-body">
+
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
