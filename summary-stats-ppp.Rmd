@@ -24,7 +24,6 @@ library(highcharter)
 library(magrittr)
 
 
-db <- read_feather("../ppp builder-PRIVATE/inter/ppp.all.feather")
 
 # db <- lazy_dt(db)
 
@@ -35,6 +34,8 @@ db <- read_feather("../ppp builder-PRIVATE/inter/ppp.all.feather")
 ## All PPP Loans (as of Nov. 2020)
 
 ```{r db.summary}
+
+db <- read_feather("../ppp builder-PRIVATE/inter/ppp.all.feather")
 
 db.summary <- db %>%
   summarize(
