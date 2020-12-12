@@ -6,7 +6,13 @@ site: distill::distill_website
 <br>
 <br>
 
-## Search this site for data on the PPP!
+## Search for companies that recieved PayCheck Protection Program Loans
+
+```{r, echo=FALSE}
+
+knitr::include_app('https://ambitious.shinyapps.io/paycheck-protection-search/', height = '600px')
+
+```
 
 
 

@@ -6,4 +6,4 @@ rmarkdown::render_site(encoding = 'UTF-8')
 
 end <- Sys.time()
 
-end - start
+end - star
