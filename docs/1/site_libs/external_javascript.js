@@ -1,5 +1,5 @@
 
-function is_downlevel_browser() {
+  function is_downlevel_browser() {
     if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
                                     window.navigator.userAgent)) {
       return true;
@@ -15,7 +15,7 @@ function on_load_complete() {
   if (window.anchors) {
     window.anchors.options.placement = 'left';
     window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
-  };
+  }
   
   
   // set body to visible
