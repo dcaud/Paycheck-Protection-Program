@@ -331,19 +331,7 @@ function init_downlevel() {
       }
     });
   
-    // auto-append index.html to post-preview links in file: protocol
-    // and in rstudio ide preview
-    $('.post-preview').each(function(i, val) {
-      if (window.location.protocol === "file:")
-        $(this).attr('href', $(this).attr('href') + "index.html");
-    });
-  
-    // get rid of index.html references in header
-    if (window.location.protocol !== "file:") {
-      $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
-      });
-    }
+
   
     // add class to pandoc style tables
     $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
