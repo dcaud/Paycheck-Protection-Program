@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About the Paycheck Protection Program Data Website",
-      "description": "Lots of data made more easily available than huge raw tables.",
+      "description": "Lots of data easily available.",
       "author": [],
-      "contents": "\nI found it quite difficult to parse the large files provided by the SBA that contained who got what in regards to the PayCheck Protection Program. So, I merged and cleaned the files and then but them into a database so that others could find them more easily.\nOther sites have done similar things, notably, ProPublica has an excellent site of PPP data. However, we add some value:\nThe data here is newer (by about 5 months)\nIt includes exact amounts (instead of ranges).\nWe may include more data. The raw data includes loans under $150k, unlike other sources. However, as is, a lack of computer processing power makes it so that this website only serves up a fraction of the records that have the highest loan amounts. When I have more time (and can pay for time on a multi-core supercomputer) I’ll add more records.\nNote that currently the search functionality is limited. But I’m working to make it better.\nSo ProPublica is great, and may be more comprehensive. So check them out!\n\n\n\n",
-      "last_modified": "2020-12-15T17:23:24-05:00"
+      "contents": "\nI found it quite difficult to parse the large files provided by the SBA that contained who got what in regards to the PayCheck Protection Program. So, I merged and cleaned the files and then but them into a database so that others could find them more easily.\nOther sites have done similar things, notably, ProPublica has an excellent site of PPP data. However, we add some value:\nThe data here is newer (by about 5 months)\nIt includes exact amounts (instead of ranges).\nWe may include more data. The raw data includes loans under $150k, unlike other sources. However, as is, a lack of computer processing power makes it so that this website only serves up a fraction of the records that have the highest loan amounts. When I have more time (and can pay for time on a multi-core supercomputer) I’ll add more records.\nNote that currently the search functionality is limited. But I’m working to make it better.\nSo ProPublica is great, and may be more comprehensive. So check them out!\nNotes from the SBA\nThe SBA released some info about the data.\n\n\n\n",
+      "last_modified": "2020-12-15T18:33:53-05:00"
     },
     {
       "path": "index.html",
       "title": "Paycheck Protection Program Loans",
       "author": [],
-      "contents": "\nSearch for companies with PPP loans greater than $250,000\n\n  iframe {\n    min-width: 100%;\n  }\n\n\n\n  iFrameResize({\n    heightCalculationMethod: 'taggedElement'\n  });\n\n\n\n\n\n\n",
-      "last_modified": "2020-12-15T17:23:24-05:00"
+      "contents": "\nSearch for companies with PPP loans greater than $250,000\n\n  iframe {\n    min-width: 100%;\n  }\n\n\n\n  iFrameResize({\n    heightCalculationMethod: 'taggedElement'\n  });\nLoan data from the Small Business Administration is available here! Search by name for companies in all states.\n\n\n\n",
+      "last_modified": "2020-12-15T21:01:43-05:00"
     },
     {
       "path": "summary-stats-ppp.html",
@@ -36,7 +36,15 @@
       "author": [],
       "date": "12-10-2020",
       "contents": "\nThe Paycheck Protection Program (PPP) was designed to provide a direct incentive for small businesses to keep their workers on the payroll. It ended in August 2020, but a new PPP bill is being considered.\nAs part of the Paycheck Protection Program {{{{BusinessName}}}} received a loan.\n{{{{BusinessName}}}}\n\n\n\n\n\n\nLoan Amount\n\n\n{{{{Loan Amount}}}}\n\n\nBusinessName\n\n\n{{{{BusinessName}}}}\n\n\nAddress\n\n\n{{{{Address}}}}\n\n\nCity\n\n\n{{{{City}}}}\n\n\nState\n\n\n{{{{State}}}}\n\n\nZip\n\n\n{{{{Zip}}}}\n\n\nNAICSCode\n\n\n{{{{NAICSCode}}}}\n\n\nBusinessType\n\n\n{{{{BusinessType}}}}\n\n\nRaceEthnicity\n\n\n{{{{RaceEthnicity}}}}\n\n\nGender\n\n\n{{{{Gender}}}}\n\n\nVeteran\n\n\n{{{{Veteran}}}}\n\n\nNonProfit\n\n\n{{{{NonProfit}}}}\n\n\nJobsReported\n\n\n{{{{JobsReported}}}}\n\n\nDateApproved\n\n\n{{{{DateApproved}}}}\n\n\nLender\n\n\n{{{{Lender}}}}\n\n\nCD\n\n\n{{{{CD}}}}\n\n\nBusinessName.clean\n\n\n{{{{BusinessName.clean}}}}\n\n\nData Sources\nThe data come from a release of over 5,000,000 records by the SBA in November, 2020.\nWho Could Apply?\nThe following entities affected by Coronavirus (COVID-19) may have been eligible:\nAny small business concern that meets SBA’s size standards (either the industry based sized standard or the alternative size standard)\nSole proprietors, independent contractors, and self-employed persons\nAny business with a NAICS Code that begins with 72 (Accommodations and Food Services) that has more than one physical location and employs less than 500 per location\nAny business, 501(c)(3) non-profit organization, 501(c)(19) veterans organization, or Tribal business concern (sec. 31(b)(2)(C) of the Small Business Act) with the greater of:\n500 employees, or\n\nThat meets the SBA industry size standard if more than 500\nMore info about the PPP is available from the Small Business Administration.\nOther companies that received a PPP loan\n{{{{bottom.links1}}}}\n\n\n\n",
-      "last_modified": "2020-12-15T17:24:05-05:00"
+      "last_modified": "2020-12-15T17:45:08-05:00"
+    },
+    {
+      "path": "test-of-search-form.html",
+      "title": "Search form",
+      "description": "Lots of data easily available.",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2020-12-16T00:16:58-05:00"
     }
   ],
   "collections": []
