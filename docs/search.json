@@ -20,7 +20,7 @@
       "title": "Paycheck Protection Program Loans",
       "author": [],
       "contents": "\nSearch for Companies with PPP loans\nLoan data from the November 2020 Small Business Administration data release is available here! Search below by company names in all 50 states.\n\n  iframe {\n    min-width: 100%;\n  }\n\n\n\n  iFrameResize({\n    heightCalculationMethod: 'taggedElement'\n  });\n\nNumber of jobs, employees, size, address, and more\nThe database includes information about each company’s jobs reported, address (including city, state and zip), gender, race/ethnicity, and more.\nNote: The search engine includes the top 100,000 loans by value. The summary stats page includes all loans!\n\n\n\n",
-      "last_modified": "2020-12-28T11:22:56-05:00"
+      "last_modified": "2020-12-28T12:55:51-05:00"
     },
     {
       "path": "summary-stats-ppp.html",
