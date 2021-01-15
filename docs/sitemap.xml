@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://www.pppdata.net/about.html</loc>
-    <lastmod>2020-12-29T23:27:37-05:00</lastmod>
+    <lastmod>2021-01-15T00:07:27-05:00</lastmod>
   </url>
   <url>
     <loc>https://www.pppdata.net/advanced_search.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://www.pppdata.net/ppp-news.html</loc>
-    <lastmod>2021-01-02T13:04:00-05:00</lastmod>
+    <lastmod>2021-01-14T22:23:20-05:00</lastmod>
   </url>
   <url>
     <loc>https://www.pppdata.net/ppp-research.html</loc>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://www.pppdata.net/problems-with-the-ppp.html</loc>
-    <lastmod>2021-01-08T01:11:01-05:00</lastmod>
+    <lastmod>2021-01-15T00:26:53-05:00</lastmod>
   </url>
   <url>
     <loc>https://www.pppdata.net/summary-stats-ppp.html</loc>
@@ -43,5 +43,9 @@
   <url>
     <loc>https://www.pppdata.net/Top-Loans-By-State.html</loc>
     <lastmod>2020-12-31T01:12:58-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pppdata.net/using-the-ppp-for-good.html</loc>
+    <lastmod>2021-01-14T22:36:30-05:00</lastmod>
   </url>
 </urlset>
